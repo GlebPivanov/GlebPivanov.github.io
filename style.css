@@ -3,12 +3,12 @@ html{
 }
 
 body{
-    background-color: aquamarine;
+    background-color: rgba(134, 94, 19, 0.384);
     margin: 0px;
 }
 
 header{
-    background-color: azure;
+    background-color: rgba(82, 94, 17, 0.884);
     width: 100%;
     margin: 0 auto;
     height: 120px;
@@ -37,17 +37,21 @@ table,th,td{
 
 }
 tr:nth-child(even){
-    background-color: darkred;
+    background-color: rgb(27, 90, 71);
 }
 
 tr:nth-child(odd){
-    background-color: lawngreen;
+    background-color: rgba(54, 79, 87, 0.76);
 }
 
 .end{
-    background-color: blue;
+    background-color: rgba(48, 32, 25, 0.767);
     width: 100%;
     height: 50px;
     padding: 5px;
     margin-top: 10px;
 }
+
+
+
+
