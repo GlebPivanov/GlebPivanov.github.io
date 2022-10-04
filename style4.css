@@ -1,0 +1,67 @@
+html{
+    height: 100%;
+}
+.round{
+    border-radius: 100px;
+    border: 3px solid rgba(32, 34, 2, 0.863); 
+    box-shadow: 0 0 7px rgb(3, 3, 3); 
+
+}
+body{
+    background-color: rgba(134, 94, 19, 0.384);
+}
+
+.col {
+    background-color:rgba(63, 73, 45, 0.514);
+}
+
+ .col.booshapka,.container-fluid{
+    background-color: rgba(61, 70, 15, 0.76)
+}
+
+.boonav ul li{
+    list-style-type: none;
+}
+.boonav ul{
+    
+    padding-right: 20px;
+}
+.boonav{
+    clear:both;
+}
+nav a{
+    text-decoration: none;
+}
+.logo{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+table{
+    border-collapse: collapse;
+    border: 3px solid rgba(0, 0, 0, 0.788);
+    text-align: center;
+}
+
+th,td{
+    border: 1px solid rgba(0, 0, 0, 0.788);
+}
+
+tr:nth-child(even){
+    background-color: rgba(27, 90, 71, 0.664);
+}
+
+tr:nth-child(odd){
+    background-color: rgba(54, 79, 87, 0.76);
+}
+
+@media screen and (min-device-width: 800px) { 
+    .h{
+        float: none;  
+    }
+    .booshapka,.row,.col,.end{
+        max-width: 960px;
+    }
+}
+   
+
