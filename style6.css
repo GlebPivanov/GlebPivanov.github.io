@@ -12,8 +12,7 @@ body {
     font-size: large;
 }
 .all{
-    margin-top: 10vw;
-    width: 350px;
+    width: 400px;
     border: solid 2px rgba(7, 7, 7, 0.747);
     border-radius: 10px;
     background-color: rgba(69, 75, 19, 0.699);
