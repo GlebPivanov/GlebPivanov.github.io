@@ -1,0 +1,52 @@
+html,
+  body {
+    background: url(fon8.jpg);
+    height: 100vh;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  #popupbg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(104, 54, 7, 0.767);
+    pointer-events: none;
+    opacity: 0;
+  }
+  #forma {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+    padding: 1vw;
+    
+  }
+
+  #button {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #form {
+    padding: 2vw;
+  }
+  #ot {
+    background-color: rgba(79, 94, 15, 0.863);
+    border-radius: none;
+    padding: 15px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  #button1 {
+    width: 120px;
+    height: 60px;
+  }
